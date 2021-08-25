@@ -9,7 +9,6 @@ import About from '../pages/About/About';
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact/Contact';
 
-import projectData from '../../projectData';
 import "./Container.css";
 
 export default function Container() {
@@ -23,7 +22,7 @@ export default function Container() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio data={projectData}/>;
+      return <Portfolio />;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
@@ -35,7 +34,7 @@ export default function Container() {
 
   return (
     <div className="bg-dark text-white content">
-      <Header data={projectData}/>
+      <Header />
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
