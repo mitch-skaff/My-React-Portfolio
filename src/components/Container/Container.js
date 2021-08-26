@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import Navigation from '../Navigation/Navigation';
+import Navigation from '../Navbar/Navbar';
 
-import Resume from '../pages/Resume';
-import About from '../pages/About/About';
-import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact/Contact';
+import Resume from '../Information/Resume';
+import About from '../Information/About/About';
+import Portfolio from "../Projects/Projects"
+import Contact from '../Information/Contact/Contact';
 
 import "./Container.css";
 
