@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navigation from '../Navbar/Navbar';
+import projectData from '../../projectData'
 
 import Resume from '../Information/Resume';
 import About from '../Information/About/About';
