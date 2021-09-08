@@ -17,7 +17,7 @@ let projectData = {
       "id": 2,
       "name": "Fresh Bytes Kitchen",
       "description": "Full stack MERN Restaurant Application",
-      "img": "./images/tracker.png",
+      "img": "./images/FBK.png",
       "alt": "project",
       "github": "https://github.com/techx-guy/Fresh-Bytes-Kitchen",
       "deployment": "https://boiling-peak-08984.herokuapp.com/",

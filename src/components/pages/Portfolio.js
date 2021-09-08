@@ -43,7 +43,7 @@ const Portfolio = (props) => {
       
 
       <div className="container bg-dark" background="black">        
-        <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl}/></a>
+        <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl} alt="project"/></a>
         <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} captionFooter={item.tech}/></a>
       </div>
         
