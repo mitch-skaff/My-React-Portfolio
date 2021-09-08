@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../../../../public/Assets/self.png"
+import Image from "../../../Assets/self.png"
 
 import "./About.css";
 
