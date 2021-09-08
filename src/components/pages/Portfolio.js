@@ -43,8 +43,8 @@ const Portfolio = (props) => {
       
 
       <div className="container bg-dark" background="black">        
-        <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl} alt="project"/></a>
-        <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} captionFooter={item.tech}/></a>
+        <a href={item.github}><img className="d-block w-100" src={item.img} alt="project"/></a>
+        <a href={item.deployment}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} captionFooter={item.tech}/></a>
       </div>
         
       </CarouselItem>
@@ -73,7 +73,7 @@ const Portfolio = (props) => {
           }`
         }
       </style>
-      <div><br/><br/><br/><br/><br/><p>Click on screenshot for Github link and title for deployed link!</p></div>
+      <div><br/><br/><br/><br/><br/><p style={{ textAlign:"center" }}>Click on screenshot for Github link and title for deployed link!</p></div>
       <Carousel
         activeIndex={activeIndex}
         next={next}
