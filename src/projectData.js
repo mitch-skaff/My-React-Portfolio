@@ -15,6 +15,16 @@ let projectData = {
     },
     {
       "id": 2,
+      "name": "Fresh Bytes Kitchen",
+      "description": "Full stack MERN Restaurant Application",
+      "img": "./images/tracker.png",
+      "alt": "project",
+      "github": "https://github.com/techx-guy/Fresh-Bytes-Kitchen",
+      "deployment": "https://boiling-peak-08984.herokuapp.com/",
+      "tech": "HTML5, CSS, Javascript, React, Node.js, Express, MongoDB, Material UI"
+    },
+    {
+      "id": 3,
       "name": "Weather Dashboard",
       "description": "Weather forecast",
       "img": "./images/Weather-Dashboard.png",
@@ -24,7 +34,7 @@ let projectData = {
       "tech": "HTML5, CSS, Javascript, OpenWeather API, Moment.js"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Budget Tracker",
       "description": "Progessive web application to track ones budget",
       "img": "./images/screenshot.png",
@@ -34,7 +44,7 @@ let projectData = {
       "tech": "HTML5, CSS, Javascript, Node, Express, MongoDB, Cache, Heroku"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Fitness Tracker",
       "description": "Full stack application to log your workout history",
       "img": "./images/tracker.png",
@@ -44,7 +54,7 @@ let projectData = {
       "tech": "HTML5, CSS, Javascript, Node.js, Express, MongoDB, Atlas"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Notes App",
       "description": "Full stack application used to write, save, and delete notes",
       "img": "./images/notes.screenshot.png",
@@ -54,7 +64,7 @@ let projectData = {
       "tech": "HTML5, CSS, Javascript, Node.js, Express"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Sweat Equity",
       "description": "Front end application for generating workouts!",
       "img": "./images/website.png",

@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Navigation from '../Navbar/Navbar';
+
 import projectData from '../../projectData'
 
-import Resume from '../Information/Resume';
-import About from '../Information/About/About';
-import Portfolio from "../Projects/Projects"
-import Contact from '../Information/Contact/Contact';
+import Resume from '../pages/Resume';
+import About from '../pages/About/About';
+import Portfolio from "../pages/Portfolio"
+import Contact from '../pages/Contact/Contact';
 
 import "./Container.css";
 
@@ -23,7 +24,7 @@ export default function Container() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio data={projectData}/>;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
